@@ -1,0 +1,166 @@
+* {
+  margin: 0 auto;
+  padding-inline-start: 0;
+}
+
+figure {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* outline: 1px solid rgb(136, 29, 29);
+  outline-offset: 7px; */
+}
+
+img {
+  width: 100%;
+}
+
+img[alt="Linda Andersson"] {
+  border-radius: 50%;
+  width: 20vw;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.socialmedia-title {
+  color: rgb(29, 29, 29);
+  text-align: center;
+  font-family: "Yeseva One", cursive;
+  padding: 1em;
+}
+
+.socialmedia-section {
+  display: flex;
+  padding: 1em;
+  margin-bottom: 3em;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(136, 29, 29);
+}
+
+/* From CSS */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+label {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  width: 9em;
+  padding: 1em;
+}
+
+textarea {
+  width: 15em;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+input[type="email"] {
+  width: 15em;
+  padding: 1em;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.5em;
+  width: 10em;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: rgb(29, 29, 29);
+  outline: 1px solid white;
+  outline-offset: -5px;
+}
+
+.form-section {
+  background-color: #650000;
+  padding: 1em;
+}
+
+/* From experience.css */
+header {
+  background: linear-gradient(
+      119deg,
+      black 0%,
+      black 25%,
+      white 25%,
+      white 100%
+    )
+    no-repeat fixed;
+  border-bottom: 2px solid rgb(136, 29, 29);
+}
+
+h1 {
+  color: rgb(29, 29, 29);
+  text-shadow: 0 0 2px black;
+  font-family: "Yeseva One", cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Yeseva One", cursive;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-top: 2px solid rgb(136, 29, 29);
+  padding-bottom: 0.3em;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  /* text-shadow: 0 0 2px black; */
+  font-size: 1rem;
+  font-family: "Yeseva One", cursive;
+  font-weight: 700;
+}
+
+a:hover,
+a:active {
+  color: rgb(136, 29, 29);
+  /* color:rgb(65, 63, 63);  */
+}
+
+.header-nav {
+  display: none;
+}
+
+.footer-nav ul {
+  display: flex;
+}
