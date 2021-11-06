@@ -1,57 +1,12 @@
-* {
-  margin: 0 auto;
-  padding-inline-start: 0;
-}
-
 body {
-  background: linear-gradient(
-      119.5deg,
-      white 0%,
-      white 50%,
-      black 50%,
-      black 100%
-    )
-    no-repeat fixed;
-    padding: 0 1em 1em 1em; 
-}
-
-h1 {
-  font-family: "Yeseva One", cursive;
-  font-size: 7rem;
-  word-break: break-all;
-  line-height: 10rem;
-  color: rgb(29, 29, 29);
-}
-
-a {
-  color: white;
-  text-shadow: 0 0 2px black;
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a:hover {
-  color: rgb(65, 63, 63);
-}
-
-a:active {
-  color: rgb(65, 63, 63);
+  padding: 0 1em 1em 1em;
 }
 
 ul {
   padding: 1em 2em;
-  text-align: end;
-}
-
-li {
-  list-style-type: none;
 }
 
 .main-nav {
-  background-color: rgb(136, 29, 29, 0.5);
-  border: 1px solid black;
   position: fixed;
   bottom: 1em;
   right: 0;

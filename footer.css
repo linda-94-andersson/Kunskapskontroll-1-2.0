@@ -1,0 +1,10 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0.3em;
+}
+
+.footer-nav ul {
+  display: flex;
+}
