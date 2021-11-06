@@ -18,7 +18,12 @@ h2 {
   font-size: var(--fontsize-medium);
 }
 
-/* nav på start blir fel! */
+h3 {
+  font-family: var(--googlefont);
+  font-size: var(--fontsize-large);
+  text-transform: capitalize;
+}
+
 a {
   font-size: var(--fontsize-small);
   font-family: var(--googlefont);
@@ -28,6 +33,15 @@ footer {
   font-size: var(--fontsize-large);
   font-weight: var(--fontsize-bold);
   text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  a {
+    font-size: var(--fontsize-large);
+  }
+  h2 {
+    font-size: var(--fontsize-extra-large);
+  }
 }
 /* End of muilty css */
 
@@ -48,6 +62,16 @@ footer {
 
 .main-nav ul {
   text-align: end;
+}
+
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 20rem;
+    line-height: normal;
+  }
+  .home-nav {
+    font-size: 4rem;
+  }
 }
 /* End of index.html */
 
@@ -85,5 +109,21 @@ figcaption {
   text-align: center;
   font-family: var(--googlefont);
   font-size: var(--fontsize-large);
+}
+
+@media (min-width: 1024px) {
+  label {
+    font-size: var(--fontsize-large);
+  }
+  input,
+  textarea {
+    font-size: var(--fontsize-medium);
+  }
+  input[type="submit"] {
+    font-size: var(--fontsize-medium);
+  }
+  .contact-title {
+    font-size: var(--fontsize-extra-large);
+  }
 }
 /* End of contact.html */

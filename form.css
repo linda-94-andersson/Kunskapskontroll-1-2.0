@@ -28,3 +28,10 @@ input[type="submit"] {
 .form-section {
   padding: var(--simpel-padding);
 }
+
+@media (min-width: 1024px) {
+  .form-section {
+    height: 55vh;
+    margin-top: 4.4em;
+  }
+}

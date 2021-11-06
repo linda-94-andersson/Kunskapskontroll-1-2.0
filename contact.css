@@ -20,3 +20,16 @@ img[alt="Linda Andersson"] {
   padding: var(--simpel-padding);
   margin-bottom: 3em;
 }
+
+@media (min-width: 1024px) {
+  figure,
+  img[alt="Linda Andersson"] {
+    width: 10vw;
+  }
+
+  .socialmedia-section {
+    margin-bottom: 0;
+    height: 20vh;
+    padding: 2em;
+  }
+}

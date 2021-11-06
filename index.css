@@ -12,3 +12,9 @@ ul {
   right: 0;
   width: 100%;
 }
+
+@media (min-width: 1024px) {
+  .main-nav {
+    bottom: 25em;
+  }
+}

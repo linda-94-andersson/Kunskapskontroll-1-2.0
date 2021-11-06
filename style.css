@@ -35,6 +35,12 @@ footer {
 .header-title {
   text-shadow: var(--text-shadow-small);
 }
+
+@media (min-width: 1024px) {
+  .header-title {
+    color: var(--text-light);
+  }
+}
 /* End of muilty use css */
 
 /* index.html */
