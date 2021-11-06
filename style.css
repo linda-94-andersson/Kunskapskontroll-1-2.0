@@ -35,12 +35,6 @@ footer {
 .header-title {
   text-shadow: var(--text-shadow-small);
 }
-
-@media (min-width: 1024px) {
-  .header-title {
-    color: var(--text-light);
-  }
-}
 /* End of muilty use css */
 
 /* index.html */
@@ -110,3 +104,10 @@ input[type="submit"]:active {
   border: var(--border-small-red);
 }
 /* End of contact.html */
+
+/* Muilty use css */
+@media (min-width: 1024px) {
+  .header-title {
+    color: var(--text-light);
+  }
+}

@@ -34,15 +34,6 @@ footer {
   font-weight: var(--fontsize-bold);
   text-transform: uppercase;
 }
-
-@media (min-width: 1024px) {
-  a {
-    font-size: var(--fontsize-large);
-  }
-  h2 {
-    font-size: var(--fontsize-extra-large);
-  }
-}
 /* End of muilty css */
 
 /* index.html */
@@ -62,16 +53,6 @@ footer {
 
 .main-nav ul {
   text-align: end;
-}
-
-@media (min-width: 1024px) {
-  .main-title {
-    font-size: 20rem;
-    line-height: normal;
-  }
-  .home-nav {
-    font-size: 4rem;
-  }
 }
 /* End of index.html */
 
@@ -110,7 +91,30 @@ figcaption {
   font-family: var(--googlefont);
   font-size: var(--fontsize-large);
 }
+/* End of contact.html */
 
+/* Muilty css */
+@media (min-width: 1024px) {
+  a {
+    font-size: var(--fontsize-large);
+  }
+  h2 {
+    font-size: var(--fontsize-extra-large);
+  }
+}
+
+/* index.html */
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 20rem;
+    line-height: normal;
+  }
+  .home-nav {
+    font-size: 4rem;
+  }
+}
+
+/* contact.html */
 @media (min-width: 1024px) {
   label {
     font-size: var(--fontsize-large);
@@ -126,4 +130,3 @@ figcaption {
     font-size: var(--fontsize-extra-large);
   }
 }
-/* End of contact.html */
