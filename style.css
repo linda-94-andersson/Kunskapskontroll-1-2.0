@@ -1,7 +1,11 @@
 /* Muilty use css */
 h1,
 h2 {
-  color: var(--title-darkgrey);
+  color: var(--title-darkred);
+}
+
+section h2 {
+  color: var(--text-dark);
 }
 
 header {
@@ -18,13 +22,11 @@ header {
 
 a {
   color: var(--text-dark);
-  /* text-shadow: var(--text-shadow-medium); */
 }
 
 a:hover,
 a:active {
   color: var(--link-red);
-  /* color: var(--link-grey);  */
 }
 
 footer {
@@ -104,10 +106,3 @@ input[type="submit"]:active {
   border: var(--border-small-red);
 }
 /* End of contact.html */
-
-/* Muilty use css */
-@media (min-width: 1024px) {
-  .header-title {
-    color: var(--text-light);
-  }
-}

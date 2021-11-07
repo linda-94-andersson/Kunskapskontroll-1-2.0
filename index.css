@@ -6,15 +6,25 @@ ul {
   padding: 1em 2em;
 }
 
+.main-title {
+  position: absolute;
+  left: 0;
+  padding-top: 0.5em;
+}
+
 .main-nav {
   position: fixed;
-  bottom: 1em;
+  bottom: 5em;
   right: 0;
   width: 100%;
+  margin: 0;
 }
 
 @media (min-width: 1024px) {
+  .main-title {
+    margin: 0;
+  }
   .main-nav {
-    bottom: 25em;
+    bottom: 15em;
   }
 }

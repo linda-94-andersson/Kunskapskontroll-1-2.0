@@ -39,9 +39,8 @@ footer {
 /* index.html */
 .main-title {
   font-family: var(--googlefont);
-  font-size: 7rem;
-  word-break: break-all;
   line-height: 10rem;
+  writing-mode: vertical-lr;
 }
 
 .home-nav {
@@ -106,8 +105,8 @@ figcaption {
 /* index.html */
 @media (min-width: 1024px) {
   .main-title {
-    font-size: 20rem;
-    line-height: normal;
+    font-size: 5rem;
+    text-orientation: upright;
   }
   .home-nav {
     font-size: 4rem;
@@ -115,7 +114,7 @@ figcaption {
 }
 
 /* contact.html */
-@media (min-width: 1024px) {
+@media (min-width: 1700px) {
   label {
     font-size: var(--fontsize-large);
   }
@@ -128,5 +127,21 @@ figcaption {
   }
   .contact-title {
     font-size: var(--fontsize-extra-large);
+  }
+}
+
+@media (min-width: 1024px) {
+  label {
+    font-size: var(--fontsize-medium);
+  }
+  input,
+  textarea {
+    font-size: var(--fontsize-medium);
+  }
+  input[type="submit"] {
+    font-size: var(--fontsize-medium);
+  }
+  .contact-title {
+    font-size: var(--fontsize-large);
   }
 }
